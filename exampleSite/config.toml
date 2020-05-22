@@ -74,10 +74,6 @@ disableHugoGeneratorInject = false
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = false  # Set "text-align: justify" to .content.
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
   # Colors for favicons
   [params.favicon.color]
     mask = "#252627"

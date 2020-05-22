@@ -81,9 +81,6 @@ paginate     = 10
   keywords = "homepage, blog"
   images = [""]
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-
 [taxonomies]
     category = "blog"
     tag      = "tags"

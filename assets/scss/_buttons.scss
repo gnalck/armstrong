@@ -13,7 +13,7 @@ a.button {
   justify-content: center;
   padding: 8px 18px;
   margin-bottom: 5px;
-  background: $light-background-secondary;
+  background: $theme-background-secondary;
   text-decoration: none;
   text-align: center;
   font-weight: 500;
@@ -23,23 +23,13 @@ a.button {
   cursor: pointer;
   outline: none;
 
-  .dark-theme & {
-    background: $dark-background-secondary;
-    color: inherit;
-  }
-
   /* variants */
 
   &.outline {
     background: transparent;
-    border-color: $light-background-secondary;
+    border-color: $theme-background-secondary;
     box-shadow: none;
     padding: 8px 18px;
-
-    .dark-theme & {
-      border-color: $dark-background-secondary;
-      color: inherit;
-    }
 
     :hover {
       transform: none;
@@ -80,7 +70,7 @@ a.button {
     justify-content: center;
     padding: 3px 8px;
     margin-bottom: 5px;
-    background: $light-background-secondary;
+    background: $theme-background-secondary;
     text-decoration: none;
     text-align: center;
     font-size: 13px;
@@ -90,10 +80,5 @@ a.button {
     appearance: none;
     cursor: pointer;
     outline: none;
-
-    .dark-theme & {
-      background: $dark-background-secondary;
-      color: inherit;
-    }
   }
 }
